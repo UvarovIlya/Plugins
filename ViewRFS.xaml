@@ -103,13 +103,6 @@
                 <ColumnDefinition Width="310"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Image Margin="220,0,10,10" Source="Images/Лого черный.png" Stretch="Fill" HorizontalAlignment="Left" Width="72" Height="55" VerticalAlignment="Bottom"/>
-            <Label Content="АО &quot;Казанский Гипронииавиапром&quot;" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Right" 
-               Margin="0,0,100,27" Foreground="#FF2778B7" FontFamily="Corbel" HorizontalAlignment="Left" Width="214" Height="26" 
-               VerticalAlignment="Bottom" FontWeight="Bold"/>
-            <Label Content="им. Б. И. Тихомирова&quot;" VerticalContentAlignment="Top" HorizontalContentAlignment="Right" Margin="0,0,100,10" 
-               FontWeight="Bold" Foreground="#FF2778B7" FontFamily="Corbel" Width="214" HorizontalAlignment="Left" Height="26" 
-               VerticalAlignment="Bottom"/>
 
             <Button x:Name="butCreate" Command="{Binding CreateSchedule, Mode=OneWay}"
                     Grid.Column="1" Content="Создать спецификацию" Margin="200,40,10,10" Height="25"/>
