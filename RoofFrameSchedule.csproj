@@ -134,9 +134,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Лого черный.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\Add.png" />
   </ItemGroup>
   <ItemGroup>
