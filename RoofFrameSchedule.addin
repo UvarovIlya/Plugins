@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+  <!--<AddIn Type="Command">
+    <Text>Command FinishingWall</Text>
+    <Description>Some description for FinishingWall</Description>
+    <Assembly>FinishingWall.dll</Assembly>
+    <FullClassName>FinishingWall.Command</FullClassName>
+    <ClientId>6d628235-ab13-4d22-9211-729747e5410b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>-->
+  <AddIn Type="Application">
+    <Name>Application RoofFrameSchedule</Name>
+    <Assembly>RoofFrameSchedule.dll</Assembly>
+    <FullClassName>RoofFrameSchedule.App</FullClassName>
+    <ClientId>815c7147-e3df-4830-a609-33b78432b5a2</ClientId>
+    <VendorId>ru.gap-rt</VendorId>
+    <VendorDescription>АО Казанский ГИПРОНИИАВИАПРОМ им. Б.И. Тихомирова, отдел ТИМ, http://gap-rt.ru</VendorDescription>
+  </AddIn>
+</RevitAddIns>
